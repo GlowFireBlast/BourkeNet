@@ -1,7 +1,7 @@
 # IanBourke Website!!!
 
 "The Future of the Ianternet"
-![Screenshot(ian.png)]
+![Screenshot](ian.png)
 ## Goals
 
 - Easy to maintain codebase
