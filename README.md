@@ -7,7 +7,7 @@
 - Easy to maintain codebase
 - Sleek and modern UI 
 - Mobile last design philosophy
-- Make an SSL certificate lmao
+- Make an SSL certificate lmao (DONE!!!)
 
 ## Link 
-- http://ianbourke.org/
+- https://ianbourke.org/
