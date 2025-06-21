@@ -1,0 +1,78 @@
+body {
+      background-color: #e2f0f1; 
+    }
+    .homeButtonHolder {
+      height: 60px;
+      background-color: #285656;
+      padding: 10px 20px;
+      width: 100%;
+      overflow: hidden;
+      display: flex;
+      gap: 20px;
+      justify-content: center; 
+    }
+    .homeButtons {
+       width: 130px;
+       height: 60px;
+       text-align: center;
+       background-color: #ffffff;
+       color: #003300;
+       border: 5px solid;
+       border-color: #a4aaaa;
+       border-radius: 25px;
+       font-family: Arial, sans-serif;
+       font-size: 20px;
+       font-weight: 600;
+       cursor: pointer;
+       overflow: hidden;
+       white-space: nowrap;
+       position: relative;
+       align-items: center;
+       transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1),
+       filter 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+       will-change: transform, filter;
+       filter: brightness(90%);
+    }
+    .homeButtons:hover {
+      transform: scale(1.2);
+      filter: brightness(100%);
+    }
+    .buttonImage {
+      width: 50px;
+      height: 50px;
+      flex-wrap: nowrap;
+      overflow: hidden;
+    }
+    .mainPageContainer {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+    }
+    .teacherPortrait {
+      width: 150px;
+      height: 150px;
+      box-sizing: border-box;
+      padding: 10px 10px;
+      margin: 20px;
+      transition: padding 0.3s ease;
+    }
+    .teacherPortrait:hover {
+      padding:0px;
+    }
+
+    .framedImage {
+      border: 10px solid #285656;
+      border-radius: 150px;
+      padding: 10px 10px;
+    }
+    .framedImage:hover {
+      transform: translateY(-5px);
+    }
+    .bigBourkeText {
+      color: #003300;
+      font-size: 75px;
+      font-family: Arial, sans-bold;
+      font-weight: 800;
+      text-align: center;
+    }
