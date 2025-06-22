@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!--change title to the correct one-->
+  <title>Template</title>
+  <!--imports style.css from file, please use the classes here for most things unless page specific-->
+  <link rel="stylesheet" href="style.css"/>
+</head>
+
+<body>
+  <!--inserts the top bar so you dont have to rewrite it 50 times-->
+  <div id="topbar"></div>
+  <script>
+    fetch('topbar.html')
+      .then(response => response.text())
+      .then(data => {
+        document.getElementById('topbar').innerHTML = data;
+      });
+  </script>
+
+  <div class=mainPageContainer>
+    <!--This is where everything below the top bar starts-->
+    <p class=bigBourkeText>Welcome to the template!</p>
+
+
+
+
+
+
+  </div>
+</body>  
+</html>
